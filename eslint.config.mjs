@@ -1,8 +1,11 @@
-// @ts-check
-import withNuxt from './.nuxt/eslint.config.mjs'
+import antfu from '@antfu/eslint-config'
 
-export default withNuxt(
-  // Your custom configs here
-).overrideRules({
-  'vue/max-attributes-per-line': ['warn', { singleline: 3 }],
+export default antfu({
+  formatters: true,
+  typescript: true,
+  vue: true,
+  stylistic: {
+    indent: 2, // 4, or 'tab'
+    quotes: 'single', // or 'double'
+  },
 })
