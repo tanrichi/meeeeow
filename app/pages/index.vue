@@ -37,19 +37,23 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
     'Helvetica Neue',
     sans-serif;
 }
+
 h1 {
   font-size: 32px;
 }
+
 @media (min-width: 768px) {
   h1 {
     font-size: 64px;
   }
 }
+
 a {
   color: #888;
   text-decoration: none;
   font-size: 18px;
 }
+
 a:hover {
   text-decoration: underline;
 }
