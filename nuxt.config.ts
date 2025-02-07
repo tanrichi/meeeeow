@@ -1,7 +1,7 @@
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
-  modules: ['@nuxthub/core', '@nuxt/eslint', '@clerk/nuxt'],
+  modules: ['@nuxthub/core', '@nuxt/eslint'],
 
   devtools: { enabled: true },
 
@@ -12,9 +12,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       helloText: 'meeeeow 👋',
-      clerkPublishableKey: '',
     },
-    clerkSecretKey: '',
   },
 
   future: { compatibilityVersion: 4 },

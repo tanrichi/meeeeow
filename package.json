@@ -13,7 +13,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@clerk/nuxt": "^1.1.2",
     "@nuxt/eslint": "^0.7.5",
     "@nuxthub/core": "^0.8.11",
     "@tailwindcss/vite": "^4.0.3",
